@@ -1,0 +1,8 @@
+vec_dimension: 1024
+
+milvus:
+  db_name: local_knowledge
+  collection:
+    name: myblog
+    docs: ../../myblog/docs/blog/
+  search_limit: 2
